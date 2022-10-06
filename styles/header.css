@@ -1,0 +1,19 @@
+#headerContainer {
+  height: 132px;
+  padding: var(--padding-3) var(--padding-1);
+}
+
+#headerContainer div {
+  max-width: 400px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#headerContainer div > h1 {
+  font-size: var(--font-size-1); /* 1.25rem */
+}
+
+#headerContainer div > button {
+  height: 32px;
+}

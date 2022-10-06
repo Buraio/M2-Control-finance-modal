@@ -1,0 +1,21 @@
+.buttonFilter:hover, .inputType:hover {
+  color: var(--color-brand-1);
+  border: 1.5px solid var(--color-brand-1); /* #6741d9 */;
+  background-color: var(--color-brand-3);
+  transition-duration: 0.2s;
+}
+
+.liValueEntry:hover {
+  border: 1px solid var(--color-brand-1);
+  transition-duration: 0.05s;
+}
+
+.buttonFilter:not(:hover), .liValueEntry:not(:hover), .spanRemoveIcon:not(:hover) {
+  transition-duration: 0.2s;
+}
+
+.spanRemoveIcon:hover, .spanRemoveIcon:hover > img {
+  opacity: 100%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}

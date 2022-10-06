@@ -1,0 +1,65 @@
+@media (min-width: 800px) {
+
+  #headerContainer div {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #headerContainer div > h1, #headerContainer div > button {
+    width: 155px;
+  }
+
+  #headerContainer div, #mainContainer {
+    max-width: 675px;
+  }
+
+  .divFilter {
+    max-height: 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .divFilter > h2 {
+    line-height: 32px;
+  }
+
+  .divFilterButtons {
+    display: flex;
+    gap: 16px
+  }
+
+  #headerContainer > button, .divFilter > h2, .buttonFilter, .fieldsetModalSelectType, .legendValueType {
+    margin: 0;
+  }
+
+  .liValueEntry, .divTotalInfo {
+    max-width: 100%;
+  }
+
+  .spanValue {
+    width: 70%;
+  }
+
+  .formModalContainer {
+    max-width: 425px;
+    max-height: 375px;
+  }
+
+  .fieldsetModalSelectType {
+    max-height: 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .inputType, .buttonInsertValue, .buttonCancelModal {
+    width: auto;
+    padding: 5px 14px;
+  }
+
+  .divModalActions {
+    justify-content: flex-end;
+    gap: 16px;
+  }
+
+}
