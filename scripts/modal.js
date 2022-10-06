@@ -63,8 +63,6 @@ insertValue.addEventListener('submit', (e) => {
       newType = 1;
     }
 
-    console.log(newType)
-
     if (newId && newType !== undefined && newValue) {
       insertedValues.push({
         id: newId,
@@ -74,8 +72,6 @@ insertValue.addEventListener('submit', (e) => {
     }
 
     generateCards(insertedValues);
-
-    console.log(insertedValues)
 
     modalDiv.classList.add('hidden');
 
